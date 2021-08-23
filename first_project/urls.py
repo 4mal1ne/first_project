@@ -21,7 +21,7 @@ from views_works.views import home_page, childhood, youth, old_age
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_page),
-    path('choldhood/', childhood),
-    path('youth/', childhood),
+    path('childhood/', childhood),
+    path('youth/', youth),
     path('old_age/', old_age),
 ]
