@@ -1,0 +1,9 @@
+{% extends "views_works/main.html" %}
+
+{% block content %}
+    {% for new in data %}
+        <h2 style="color: aliceblue">{{ new.title }}</h2>
+        <p style="color: aliceblue">{{ new.content }}</p>
+        <br>
+    {% endfor %}
+{% endblock %}
